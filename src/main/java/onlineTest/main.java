@@ -65,9 +65,10 @@ public class main {
 				else {
 					for(int i = 0; i < tdElements.size(); i++) { 
 						makeContent(tdElements.get(i).text(), tableIndex, i);
+				    }
+					System.out.println(getJSONString("\nInfrastructure") + "}");
 				}
-				System.out.println(getJSONString("\nInfrastructure") + "}");
-			}			
+						
 				tableIndex++;
 				jsonString = "";
 			}
