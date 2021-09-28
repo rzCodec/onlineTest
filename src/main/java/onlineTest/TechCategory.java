@@ -1,8 +1,5 @@
 package onlineTest;
 
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
-
 public abstract class TechCategory {
 	protected String lifecycle;
 	
